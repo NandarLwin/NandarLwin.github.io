@@ -1,0 +1,18 @@
+.des{
+    font-family: 'Times New Roman', Times, serif;
+    color:orange;
+}
+
+#red{
+    font-family: 'Times New Roman', Times, serif;
+    color:red;
+}
+
+h1,h2,h3{
+    font-family: 'Times New Roman', Times, serif;
+    color:aqua;
+}
+.word{
+    font-family: 'Times New Roman', Times, serif;
+    color: white !important;
+}
