@@ -16,3 +16,13 @@ h1,h2,h3{
     font-family: 'Times New Roman', Times, serif;
     color: white !important;
 }
+a {
+    text-decoration: none;
+  }
+a:hover{
+    text-decoration: underline;
+}
+.firstcharacter {
+    color: #903;
+    font-size: 35px;
+  }
