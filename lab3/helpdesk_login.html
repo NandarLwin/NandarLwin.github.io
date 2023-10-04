@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <title>CS Helpdesk</title>
+</head>
+<body>
+    <div>
+        <ul class="leftnav">
+            <li><a><img src="images/miu.png" alt="" width="26" height="26"></a></li>
+            <li><a href="#">|</a></li>
+            <li><a href="#"> Maharishi University IT Dept</a></li>
+        </ul>
+        <ul class="topnav" >
+            <li><a href="#">Agent Portal </a></li>
+            <li><a href="#">Submit Ticket </a></li>
+            <li><a href="#">Knowledge Base </a></li>
+            <li><a href="#">Login </a></li>
+          </ul>
+    </div>
+    <div class="heading">
+        <p>Welcome to our Support Center</p>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h3>Login</h3>
+            <p class="lblLogin">Login to know the status of the ticket.</p>
+            <button id="btmImg">
+                <img src="images/azure_ad.png" alt=""  id="imgBtn">
+            </button>
+            <p id="line"> or login using </p>
+           
+            <p class="txt">Username or email</p>
+            <input type="text" id="username" placeholder="Enter Username"/>
+            <p>Password</p>
+            <input type="text" id="password" placeholder="Enter Password"/>
+            <p>
+                <span>
+                        <input type="checkbox" id="remMe" name="remMe" value="Yes" checked>
+                        <label for="remMe"> Remember me</label>
+                </span>
+                <span><a href="#" id="passwordReset">Forgot Password?</a></span>
+            </p>
+            <button id="btnLogin"> Login </button>
+        </div>
+        <div class="grid-item">
+            <span class="align">
+                <p>Log in to track your existing support requests. If you have not created yet
+                    then you would need to <a href="#" id="txtLink">register</a> or <a href="#" id="txtLink">create a new ticket</a> to begin.</p>
+                    <button id="btnSubmit"> Submit </button>
+            </span>
+            
+        </div>
+    </div>
+    <div id="footer">
+        <p class="align">Copyrights 2020, All rights reserved.</p>
+    </div>
+</body>
+</html>
