@@ -1,0 +1,128 @@
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .topnav {
+    float: right;
+    /* display: block; */
+  }
+  .leftnav {
+    float: left;
+  }
+  .topnav a{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color:black;
+  }
+  .leftnav a{
+    text-decoration: none;
+    font-size: 17px;
+    color:black;
+    text-align: center;
+    padding: 14px 2px;
+    font-weight: bold;
+  }
+
+  li {
+    display: inline;
+    vertical-align: middle;
+  }
+
+  .heading{
+    background-color: darkolivegreen;
+    height:200px;
+    clear:both;
+  }
+
+  .heading p{
+    color: white;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:24px;
+    text-align: center;
+    position:relative;
+    top:3em;
+  }
+
+  #btmImg{
+    width: 280px;
+    height: 36px;
+    border-radius: 5px;
+    border:1px solid rgb(0, 0, 0, 0.2);
+  }
+  .grid-container{
+    display:grid;
+    grid-template-columns: 50% 50%;
+  }
+  #line{
+    width:40%;
+    position: relative;
+    left:1em;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+  }
+  #imgBtn{
+    width:80px;
+    height:25px;
+  }
+  #username, #password{
+    height:36px;
+    width: 270px;
+    border:inset;
+  }
+.lblLogin{
+    color:rgba(0, 0, 0, 0.2);
+}
+  #passwordReset{
+    margin:0 0 0 33px;
+    text-decoration: none;
+  }
+  #txtLink{
+    text-decoration: none;
+  }
+  #btnLogin{
+    background-color: black;
+    width: 280px;
+    height: 36px;
+    color:white;
+    border-radius: 5px;
+  }
+
+  #btnSubmit{
+    background-color: black;
+    width: 150px;
+    height: 36px;
+    color:white;
+    border-radius: 5px;
+  }
+
+#line {
+    display: flex;
+    flex-direction: row;
+}
+  
+#line:before,
+#line:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+.align{
+    margin:10px 0 0 1050px;
+    height:36px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+
+#footer{
+    background-color: rgb(223, 223, 223);
+}
