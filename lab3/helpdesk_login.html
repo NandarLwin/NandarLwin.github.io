@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet">
     <title>CS Helpdesk</title>
 </head>
-<body>
+<body style="width:100%">
     <div>
         <ul class="leftnav">
             <li><a><img src="images/miu.png" alt="" width="26" height="26"></a></li>
@@ -33,9 +33,9 @@
             <p id="line"> or login using </p>
            
             <p class="txt">Username or email</p>
-            <input type="text" id="username" placeholder="Enter Username"/>
+            <input type="text" id="username" placeholder="Enter Username">
             <p>Password</p>
-            <input type="text" id="password" placeholder="Enter Password"/>
+            <input type="text" id="password" placeholder="Enter Password">
             <p>
                 <span>
                         <input type="checkbox" id="remMe" name="remMe" value="Yes" checked>
@@ -46,16 +46,24 @@
             <button id="btnLogin"> Login </button>
         </div>
         <div class="grid-item">
-            <span class="align">
-                <p>Log in to track your existing support requests. If you have not created yet
-                    then you would need to <a href="#" id="txtLink">register</a> or <a href="#" id="txtLink">create a new ticket</a> to begin.</p>
+            <p class="align">
+                Log in to track your existing support requests. If you have not created yet
+                    then you would need to <a href="#" class="txtLink">register</a> or <a href="#" class="txtLink">create a new ticket</a> to begin.
+                    <br>
                     <button id="btnSubmit"> Submit </button>
-            </span>
+            </p>
             
         </div>
     </div>
-    <div id="footer">
-        <p class="align">Copyrights 2020, All rights reserved.</p>
-    </div>
+   
 </body>
+<footer>
+    <a href ="https://validator.w3.org/check?url=https://nandarlwin.github.io/lab3/helpdesk_login.html">
+    <img src="https://mumstudents.org/cs472/2013-09/images/w3c-html.png" alt="Valid HTML!">
+    </a>
+    <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://nandarlwin.github.io/lab3/css/style.css">
+    <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!">
+    </a>
+    <span id="copy">Copyrights 2020, All rights reserved.</span>
+</footer>
 </html>
