@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Form 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <form class="row g-3 px-5 py-4 needs-validation">
+
+        <div class="col-12">
+
+          <label for="inputEmail4" class="form-label">Email Address</label>
+
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Enter email" required >
+
+           <span class="text-secondary"> We'll never share your email with anyone</span>
+
+        </div>
+
+        <div class="col-12">
+
+          <label for="inputPassword4" class="form-label">Password</label>
+
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{10,}$" title="Password Format should have at least 10 characters with one uppercase and one lowercase!" required>
+        
+          <span class="text-secondary"> Password Format should have at least 10 characters with one uppercase and one lowercase!</span>
+        </div>
+        <div class="col-12">
+
+            <label for="inputlUrl" class="form-label">Url</label>
+  
+            <input type="url" class="form-control" id="inputUrl" placeholder="Website Url"  title="Url format should start with http: or https:" required >
+            <span class="text-secondary"> Url format should start with http: or https:!</span>
+          </div>
+
+        <div class="col-12 spacing">
+
+          <div class="form-check">
+
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+
+            <label class="form-check-label" for="gridCheck">
+
+              Check me out
+
+            </label>
+
+          </div>
+
+        </div>
+
+        <div class="col-12">
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+        </div>
+
+      </form>
+</body>
+</html>
