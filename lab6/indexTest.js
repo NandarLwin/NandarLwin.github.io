@@ -19,12 +19,11 @@ describe ("Get Titles",function(){
 
 describe ("Find Book",function(){
     it ("Find book", function(){
-        assert.deepEqual(findBook("The"),     [
+        assert.deepEqual(findBook("a"),     [
 
             { title: "The Road Ahead", author: "Bill Gates", libraryID: 1235 },
-
             { title: "The Road Ahead", author: "Bill Gates", libraryID: 4268 },
-
+            { title: "Walter Isaacson", author: "Steve Jobs", libraryID: 4268 },
             { title: "Mockingjay: The Final Book of The Hunger Games", author: "Suzanne Collins", libraryID: 3257 }
 
         ]);
