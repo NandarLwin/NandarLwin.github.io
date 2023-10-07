@@ -23,8 +23,8 @@ function getTitles(){
 }
 
 function findBook(title){
-    return libraryBooks.filter(data=>data.title.includes(title)).sort(data => data.author);
+    return libraryBooks.filter(data=>data.title.includes(title)).sort((a, b) => a.author.localeCompare(b.author));
 }
 console.log(getTitles());
-console.log(findBook("The"));
+console.log(findBook('a'));
 
