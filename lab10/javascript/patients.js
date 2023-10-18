@@ -1,8 +1,8 @@
 window.onload =() =>{
     var emplID,empFirstName, empMiddleName,empLastName,empDoB,empDept,selectedValue;
     var data =[];
-    document.getElementById("btnRegisterPatient").addEventListener('click', function(e)  {
-        e.preventDefault();
+    document.getElementById("myForm").addEventListener('submit', event => {
+        event.preventDefault();
         emplID= document.getElementById("patientIdNumber").value;
         empFirstName = document.getElementById("firstName").value;
         empMiddleName =document.getElementById("middleInitials").value;
